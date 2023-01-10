@@ -1,4 +1,4 @@
-# work-day-scheduler
+# Work Day Scheduler
 
 ## Technology Used
 
@@ -21,7 +21,6 @@
 ## Author Info
 
 Darren Watanabe <br>
-UC Berkeley Coding Bootcamp Student <br>
 Email: watanabedarren@yahoo.com <br>
 [Github](https://github.com/Darrenkwatanabe) <br>
 [LinkedIn](https://www.linkedin.com/in/darren-watanabe-982526253/)
