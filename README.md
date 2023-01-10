@@ -20,9 +20,18 @@ is in the present and future. The current date will always be displayed at the t
 
 ## Usage
 
+First, the webpage will be displayed with the current date. 
+
+<img src = "./images/scheduler header.PNG"> <br>
+
+Then the user will be allowed to input whatever they would like into each time block and also be allowed to save that input to the webpage using
+the save button on the right hand side of the time block.
+
+<img src = "./images/time block example.PNG"> <br>
 
 ## Learning Points
 
+1. 
 
 ## Author Info
 
