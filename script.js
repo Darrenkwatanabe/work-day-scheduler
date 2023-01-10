@@ -38,17 +38,14 @@ $(document).ready(function(){
       $(time-Block).each(function(){
         let currentTime = dayjs().hour();
         let hour = $(this).attr("id");
-        if (hour < currentTime){
+        if (hour < currentTime) {
           $(this).addClass("past");
-          $(this).removeClass("present");
-          $(this).removeClass("future");
-        } else if(hour > currentTime){
-          $(this).addClass("future");
-          $(this).removeClass("past");
-          $(this).removeClass("present");
-        } else {
+        } else if (hour === currentTime) {
           $(this).addClass("present");
-          $(this).removeClass("future");
+          $(this).removeClass("past");
+        } else {
+          $(this).addClass("future");
+          $(this).removeClass("present");
           $(this).removeClass("past");
         }
       });
