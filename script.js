@@ -30,12 +30,31 @@ $(document).ready(function(){
     // past, present, and future classes? How can Day.js be used to get the
     // current hour in 24-hour time?
     //
+    // 
+    // create function to compare time to scheduler to utilize corresponding class
+    // function will determine the background color of each time block
 
-    
-    // TODO: Add code to get any user input that was saved in localStorage and set
-    // the values of the corresponding textarea elements. HINT: How can the id
-    // attribute of each time-block be used to do this?
-    //
+    function compareHour() {
+      $(timeBlock).each(function(){
+        let currentTime = dayjs().hour();
+        let hour = $(this).attr("id");
+        if (hour < currentTime){
+          $(this).addClass("past");
+          $(this).removeClass("present");
+          $(this).removeClass("future");
+        } else if(hour > currentTime){
+          $(this).addClass("future");
+          $(this).removeClass("past");
+          $(this).removeClass("present");
+        } else {
+          $(this).addClass("present");
+          $(this).removeClass("future");
+          $(this).removeClass("past");
+        }
+      });
+    }
 
-  
+
+    compareHour();
+
   });
