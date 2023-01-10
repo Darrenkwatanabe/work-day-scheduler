@@ -35,7 +35,7 @@ $(document).ready(function(){
     // function will determine the background color of each time block
 
     function compareHour() {
-      $(timeBlock).each(function(){
+      $(time-Block).each(function(){
         let currentTime = dayjs().hour();
         let hour = $(this).attr("id");
         if (hour < currentTime){
@@ -53,7 +53,6 @@ $(document).ready(function(){
         }
       });
     }
-
 
     compareHour();
 
