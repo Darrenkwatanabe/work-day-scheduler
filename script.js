@@ -33,6 +33,7 @@ $(document).ready(function(){
     // 
     // create function to compare time to scheduler to utilize corresponding class
     // function will determine the background color of each time block
+    // had to double check to make sure i referred to the current id of time-block 
 
     function compareHour() {
       $('.time-block').each(function () {

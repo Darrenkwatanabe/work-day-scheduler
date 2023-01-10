@@ -9,6 +9,7 @@
 | Git | [https://git-scm.com/](https://git-scm.com/)     |   
 | JavaScript | [https://developer.mozilla.org/en-US/docs/Web/JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)  |
 | JQuery | [https://api.jquery.com/](https://api.jquery.com/) |
+| Day.js | [https://day.js.org/](https://day.js.org/)  |
 
 ## Description
 
@@ -31,7 +32,13 @@ the save button on the right hand side of the time block.
 
 ## Learning Points
 
-1. 
+1. Utilizing JQuery libraries
+2. Learned how to compare current times with times shown on a scheduler
+3. Learned how to display the current time on a webpage using the Day.js library
+
+This project was very interesting on how we were able to load a page and have the time blocks correspond with the current time depending on their
+time block. I had ran into trouble with calling the correct classes and had to check multiple times because of the errors I had been experiencing 
+on my webpage.
 
 ## Author Info
 
