@@ -1,7 +1,15 @@
 // Wrap all code that interacts with the DOM in a call to jQuery to ensure that
 // the code isn't run until the browser has finished rendering all the elements
 // in the html.
-$(function () {
+$(document).ready(function(){
+
+  // function shows current date
+  // function is sent to header through id currentDay
+  // date is formatted as Day, Month NumericDate 
+  var currentDate = dayjs().format("dddd, MMMM DD");
+  $("#currentDay").text(currentDate);  
+  
+  
     // TODO: Add a listener for click events on the save button. This code should
     // use the id in the containing time-block as a key to save the user input in
     // local storage. HINT: What does `this` reference in the click listener
@@ -20,4 +28,6 @@ $(function () {
     // attribute of each time-block be used to do this?
     //
     // TODO: Add code to display the current date in the header of the page.
+
+  
   });
